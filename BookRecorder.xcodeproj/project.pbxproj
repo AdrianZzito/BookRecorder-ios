@@ -61,13 +61,61 @@
 				DF5A06F925B3245900EFC81E /* AppDelegate.swift */,
 				DF5A06FB25B3245900EFC81E /* SceneDelegate.swift */,
 				DF5A06FD25B3245900EFC81E /* ViewController.swift */,
-				DF5A06FF25B3245900EFC81E /* Main.storyboard */,
+				DF5A071425B3272C00EFC81E /* UseCases */,
+				DF5A071325B3272A00EFC81E /* Util */,
+				DF5A071225B3272300EFC81E /* SupportingFiles */,
 				DF5A070525B3245D00EFC81E /* Assets.xcassets */,
-				DF5A070725B3245D00EFC81E /* LaunchScreen.storyboard */,
-				DF5A070A25B3245D00EFC81E /* Info.plist */,
 				DF5A070225B3245900EFC81E /* BookRecorder.xcdatamodeld */,
 			);
 			path = BookRecorder;
+			sourceTree = "<group>";
+		};
+		DF5A071225B3272300EFC81E /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A070A25B3245D00EFC81E /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		DF5A071325B3272A00EFC81E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A071825B3278100EFC81E /* Extension */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		DF5A071425B3272C00EFC81E /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A071725B3277200EFC81E /* Main */,
+				DF5A071625B3274C00EFC81E /* Launch */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		DF5A071625B3274C00EFC81E /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A070725B3245D00EFC81E /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		DF5A071725B3277200EFC81E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A06FF25B3245900EFC81E /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DF5A071825B3278100EFC81E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,7 +340,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XZ3K8YX7LC;
-				INFOPLIST_FILE = BookRecorder/Info.plist;
+				INFOPLIST_FILE = BookRecorder/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +359,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XZ3K8YX7LC;
-				INFOPLIST_FILE = BookRecorder/Info.plist;
+				INFOPLIST_FILE = BookRecorder/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
