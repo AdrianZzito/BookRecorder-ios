@@ -6,12 +6,14 @@
 //
 
 import UIKit
+import CoreData
 
 class ViewController: UIViewController {
 
     // MARK: - Private values
     
     // MARK: - Outlets
+    @IBOutlet weak var tableView: UITableView!
     
     // MARK: - Life cycle
     override func viewDidLoad() {
@@ -22,6 +24,14 @@ class ViewController: UIViewController {
     
     // MARK: - Private methods
 
+    private func setup() {
+        setupTable()
+        navigationController?.title = "My books"
+    }
+    
+    private func setupTable() {
+        
+    }
 
 }
 
